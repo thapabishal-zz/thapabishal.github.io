@@ -1,1 +1,81 @@
-<h1> Hello </h1>
+<!DOCTYPE html>
+<html>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .bgimg {
+        background-color: #f7f7f7;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: black;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+    }
+
+    .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+    }
+
+    .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+    }
+
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    hr {
+        margin: auto;
+        width: 40%;
+    }
+</style>
+<body>
+
+<div class="bgimg">
+    <div class="topleft">
+        <p> Comming soon </p>
+    </div>
+    <div class="middle" >
+        <h4 id="place"></h4>
+
+    </div>
+    <div class="bottomleft">
+        <p>Bishal (thebsaal@gmail.com/981418669)</p>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    var textArray = [
+        "The end is near",
+        "We got one advantage: He’s coming to us",
+        "Perfectly balanced. As all things should be",
+        "Shhhhhh",
+        "I hope they remember you.",
+        "Oh, we’re using our made-up names",
+        "Let’s talk about this plan of yours. I think it’s good, except it sucks. So let me do the plan and that way, it might be really good.",
+        "Oh, no no. Daddy don't get scared.",
+        "That's not a question I need answered",
+        "Thor: Take care how you speak. Loki is beyond reason, but he is of Asgard, and he is my brother.\n Black Widow: He killed 80 people in two days \n Thor: He is adopted. ",
+        "",
+    ];
+    function showText(){
+        var randomNumber = Math.floor(Math.random()*textArray.length)
+        document.getElementById("place").innerText=textArray[randomNumber];
+    }
+    window.onload = showText();
+</script>
