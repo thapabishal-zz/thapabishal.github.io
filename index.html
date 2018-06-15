@@ -1,86 +1,75 @@
 <!DOCTYPE html>
-<html>
-<style>
-    body, html {
-        height: 100%;
-        margin: 0;
-    }
+<html lang="en">
 
-    .bgimg {
-        background-color: #f7f7f7;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        color: black;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 25px;
-    }
+<head>
+	<meta charset="UTF-8">
+	<title>Freelancer: Bishal Thapa</title>
+	<meta name="description" content="Bishal Thapa,software developer,web developer, coder, programmer, blogger.  Welcome !">
+	<meta name="author" content="Bishal Thapa Bsaal">
+	<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/particles.css">
+</head>
 
-    .topleft {
-        position: absolute;
-        top: 0;
-        left: 16px;
-    }
-
-    .bottomleft {
-        position: absolute;
-        bottom: 0;
-        left: 16px;
-        font-size:15px;
-    }
-
-    .middle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    hr {
-        margin: auto;
-        width: 40%;
-    }
-#bottomtext{
-        font-size:15px;
-    }
-    
-</style>
 <body>
 
-<div class="bgimg">
-    <div class="topleft">
-        <p> Comming soon </p>
-    </div>
-    <div class="middle" >
-        <h4 id="place"></h4>
 
-    </div>
-    <div class="bottomleft">
-        <p id="bottomtext">Bishal (thebsaal@gmail.com/981418669)</p>
-    </div>
-</div>
+	<body data-spy="scroll" data-target="#myScrollspy">
+
+		<nav class="navbar navbar-default navbar-fixed-top  m-navbar">
+			<div class="container">
+
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header m-navbar  m-navbar">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Comming Soon</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse  m-navbar" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav pull-right">
+						<!-- <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+				<li class="active"><a href="#">Project <span class="sr-only">(current)</span></a></li>
+				<li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li> -->
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+
+		<!-- Main Content  -->
+		<div class="container" name="toTop" id="particles-js">
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="middle">The end is near</h4>
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+	</body>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+
+	<script src="js/index.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+	 crossorigin="anonymous"></script>
+	<script src="js/particles.min.js"></script>
+	<script src="js/customparticles.js"></script>
+
+
+
 </body>
 </html>
-
-<script>
-    var textArray = [
-        "The end is near",
-        "We got one advantage: He’s coming to us",
-        "Perfectly balanced. As all things should be",
-        "Shhhhhh",
-        "I hope they remember you.",
-        "Oh, we’re using our made-up names",
-        "Let’s talk about this plan of yours. I think it’s good, except it sucks. So let me do the plan and that way, it might be really good.",
-        "Oh, no no. Daddy don't get scared.",
-        "That's not a question I need answered",
-        "Thor: Take care how you speak. Loki is beyond reason, but he is of Asgard, and he is my brother.\n Black Widow: He killed 80 people in two days \n Thor: He is adopted. ",
-        "",
-    ];
-    function showText(){
-        var randomNumber = Math.floor(Math.random()*textArray.length)
-        document.getElementById("place").innerText=textArray[randomNumber];
-    }
-    window.onload = showText();
-</script>

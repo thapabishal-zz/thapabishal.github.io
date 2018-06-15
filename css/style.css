@@ -1,0 +1,71 @@
+* {
+	transition-duration: 0.2s;
+}
+
+body {
+	padding-top: 48px;	
+	color:white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 25px;
+}
+.default-font{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 25px;
+}
+section {
+	margin-top: 40px;
+}
+section:first-of-type {
+	margin-top: 0;
+}
+.page-heading {
+	padding: 20px 0 40px;
+	text-align: center;
+}
+
+.divider {
+	border-bottom: 1px solid #ccc;
+}
+
+li a {
+	transition-duration: 1s;
+	
+}
+
+/* Helpers for top position on internal page links
+====================================================*/
+#topPos:before,
+h3:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
+}
+/* AFFIX STYLES
+====================================================*/
+.panel-affix {
+	min-width: 225px;
+}
+
+.m-navbar,.navbar-default,.navbar-brand,.navbar-nav{
+	background-color: #1887b6 !important;
+	color:white !important;
+}
+.navbar-nav li a{
+	background-color: #1887b6 !important;
+	color:white !important;
+}
+.navbar-default{
+	border-color:#1887b6 !important
+}
+
+
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: 18%;
+}
