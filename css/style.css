@@ -3,18 +3,6 @@
 }
 
 
-
-
-body {
-	padding-top: 48px;	
-	color:white;
-	font-family: "Courier New", Courier, monospace;
-	font-size: 25px;
-}
-.default-font{
-	font-family: "Courier New", Courier, monospace;
-	font-size: 25px;
-}
 section {
 	margin-top: 40px;
 }
