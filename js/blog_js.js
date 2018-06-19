@@ -18,7 +18,7 @@ $( document ).ready(function() {
       if (stopPoint < windowTop) {
           $sticky.css({ position: 'absolute', top: (diff-55),});
       } else if (stickyTop < windowTop+stickOffset) {
-          $sticky.css({ position: 'fixed', top: '18px',width:stickyWidth });
+          $sticky.css({ position: 'fixed', top: '65px',width:stickyWidth });
       } else {
           $sticky.css({position: 'relative', top: 'initial'});
       }

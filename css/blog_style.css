@@ -1,21 +1,24 @@
-body {
 
+.blog-container{
+  margin-top: 73px;
 }
+
+
 p{
   font-family: 'Montserrat', sans-serif;
 }
 .theme-color{
-  color:#2074b9;
+  color:#bf3e11;
 }
 .theme-bg-color{
-  background-color:#2074b9;
+  background-color:#bf3e11;
 }
 .list-group-item.active{
-    background-color: #2074b9;
+    background-color: #bf3e11;
     border-color:white;
 }
 .list-group-item.active:hover{
-  background-color: #2074b9;
+  background-color: #bf3e11;
   border-color:white;
   color:white;
 }
@@ -34,11 +37,7 @@ p{
 .m-count{
   font-size: 12px;
 }
-.header {
-  margin-bottom: 10px;
-  border: 1px solid #000000;
-  height: 90px;
-}
+
 
 .footer {
   margin-top: 10px;
