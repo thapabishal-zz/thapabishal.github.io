@@ -1,9 +1,10 @@
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll > 0) {
-        $("#header").addClass("active");
+        $("#header").addClass("navbar-shrink");
+
     }
     else {
-        $("#header").removeClass("active");
+        $("#header").removeClass("navbar-shrink");
     }
 });
