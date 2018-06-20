@@ -1,4 +1,12 @@
-
+a,h1,h2,h3{
+	color:black;
+}
+a:hover {
+	color: #dd4814;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
 .middle {
 	position: absolute;
 	top: 50%;
@@ -16,13 +24,33 @@
 }
 
 #section2{
-	background-color: white;
-	height:670vh;
+ color: #777777;
+	height:100vh;
 	width: 100%;
 	clear: both;
 }
-
-
+.section-gap {
+	padding: 120px 0;
+}
+.single-services {
+	text-align: center;
+	margin-top: 60px;
+}
+.services-ways{
+	margin-top: 10%;
+}
+.single-services h4 {
+	padding-top: 30px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+::selection {
+	background-color: #8490ff;
+	color: #fff;
+}
 /* ---- particles.js container ---- */
 
 #particles-js {
