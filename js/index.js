@@ -1,10 +1,7 @@
 $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    if (scroll > 0) {
-        $("#header").addClass("navbar-shrink");
-
+    if ($(document).scrollTop() > 50) {
+      $('nav').addClass('shrink');
+    } else {
+      $('nav').removeClass('shrink');
     }
-    else {
-        $("#header").removeClass("navbar-shrink");
-    }
-});
+  });

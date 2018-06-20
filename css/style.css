@@ -66,25 +66,35 @@ h3:before {
 }
 /* AFFIX STYLES
 ====================================================*/
-#header {
-	padding: 25px 0;
-	border: 0;
-	-webkit-transition: padding .3s;
-	-moz-transition: padding .3s;
-	transition: padding .3s;
-}
 
-#header.navbar-shrink {
-	padding: 10px 0;
-	/*background-color: #000;*/
-}
-#header.navbar-brand {
-	font-size: 2em;
-	-webkit-transition: all .3s;
-	-moz-transition: all .3s;
-	transition: all .3s;
-}
-
+nav .navbar-brand {
+	font-size: 27px;
+  }
+  nav .navbar-toggle {
+	margin: 13px 15px 13px 0;
+  }
+  nav a {
+	font-size: 18px;
+	padding-bottom: 12px !important;
+	padding-top: 12px !important;
+	transition: all 0.3s ease;
+  }
+  nav.navbar.shrink {
+	min-height: 20px;
+  }
+  nav.navbar.shrink .navbar-brand {
+	font-size: 22px;
+  }
+  nav.navbar.shrink a {
+	font-size: 14px;
+	padding-bottom: 6px !important;
+	padding-top: 6px !important;
+  }
+  nav.navbar.shrink .navbar-toggle {
+	margin: 8px 15px 8px 0;
+	padding: 4px 5px;
+  }
+  
 
 
 
@@ -100,3 +110,13 @@ h3:before {
 	border-color:#dd4814 !important
 }
 
+/*  footer */
+
+.footer {
+	margin-top: 107px;
+	padding-top: 22px;
+	padding-bottom: 10px;
+	color: white;
+  }
+
+  /* end footer */
