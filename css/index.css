@@ -1,4 +1,4 @@
-a,h1,h2,h3,h4,h5{color:black;font-family: 'Montserrat', sans-serif;}
+body,a,p,h1,h2,h3,h4,h5{color:black;font-family: 'Montserrat', sans-serif;}
 a:hover {
 	color: #dd4814;
 	text-decoration: none;
@@ -10,19 +10,8 @@ a:hover {
 	-webkit-border-radius:            0px;
 	-moz-border-radius:               0px;
 }
-body{
-	font-family: 'Montserrat', sans-serif;
-}
-p{
-	font-family: 'Montserrat', sans-serif;
-}
-.theme-color{
-    color:#bf3e11;
-}
-.theme-bg-color{
-    background-color:#bf3e11;
-}
-
+.theme-color{color:#bf3e11;}
+.theme-bg-color{background-color:#bf3e11;}
 
 .panel {
 	font-family: 'Source Sans Pro';
