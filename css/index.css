@@ -8,17 +8,29 @@ a:hover {
 .theme-color{
 	color: #dd4814;
 }
-.middle {
+
+
+.panel {
+	font-family: 'Source Sans Pro';
+	font-size: 1.3em;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	margin-top: 16%;
-	color:white;
+	z-index: 10;
+	width:100%;
+	top: 20%;
+	border-radius: 4px;
+	box-sizing: border-box;
 }
-.scroll-down{
-	margin-top: 29%;
-	font-size: 20px;
+
+.panel2 {
+	font-family: 'Source Sans Pro';
+	font-size: 1.3em;
+	position: absolute;
+	z-index: 10;
+	width:100%;
+	top: 55%;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color:white;
 }
 .btn-follow{
 	border:1px solid white;
@@ -29,6 +41,7 @@ a:hover {
 }
 .bt-hr{
 	border:0.4px solid white;
+	width:30%;
 }
 
 #section2{
