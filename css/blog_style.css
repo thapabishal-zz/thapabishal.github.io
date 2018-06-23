@@ -4,15 +4,8 @@
 }
 
 
-p{
-  font-family: 'Montserrat', sans-serif;
-}
-.theme-color{
-  color:#bf3e11;
-}
-.theme-bg-color{
-  background-color:#bf3e11;
-}
+
+
 .list-group-item.active{
     background-color: #bf3e11;
     border-color:white;

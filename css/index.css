@@ -1,12 +1,26 @@
-a,h1,h2,h3{color:black;}
+a,h1,h2,h3,h4,h5{color:black;font-family: 'Montserrat', sans-serif;}
 a:hover {
 	color: #dd4814;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
 }
+.br-o{
+	border-radius:                    0px;
+	-webkit-border-radius:            0px;
+	-moz-border-radius:               0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
 .theme-color{
-	color: #dd4814;
+    color:#bf3e11;
+}
+.theme-bg-color{
+    background-color:#bf3e11;
 }
 
 
@@ -190,9 +204,13 @@ nav .navbar-brand {
 
 .footer {
 	margin-top: 107px;
-	padding-top: 22px;
-	padding-bottom: 10px;
+	padding-top: 32px;
+	padding-bottom: 20px;
 	color: white;
   }
+
+#subscribe{
+	width:300px !important;
+}
 
   /* end footer */
