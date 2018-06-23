@@ -1,4 +1,5 @@
-body,a,p,h1,h2,h3,h4,h5{color:black;font-family: 'Montserrat', sans-serif;}
+a,h1,h2,h3,h4,h5{color:black;font-family: 'Montserrat', sans-serif;}
+body{color:white;}
 a:hover {
 	color: #dd4814;
 	text-decoration: none;
@@ -12,7 +13,7 @@ a:hover {
 }
 .theme-color{color:#bf3e11;}
 .theme-bg-color{background-color:#bf3e11;}
-
+.text-white{color:white;}
 .panel {
 	font-family: 'Source Sans Pro';
 	font-size: 1.3em;
