@@ -4,6 +4,7 @@ body {
 a{
   color:#76bd1d;
 }
+
 h1,
 h2,
 h3,
@@ -24,12 +25,19 @@ h6 {
   }
   
 }
+.mouse-pointer{
+  cursor: pointer;
+}
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+}
+.hire-me{
+  line-height: 1.5em;
+  text-align: justify;
 }
 h{
   font-family: "Comic Sans MS", cursive, sans-serif;
