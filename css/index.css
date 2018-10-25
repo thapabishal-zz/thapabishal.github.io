@@ -293,8 +293,9 @@ a:hover {
   background-color: #76bd1d;
 }
 
-.my-project:hover .overlay {
+.my-project .overlay {
   opacity: 1;
+  border:solid 2px white;
 }
 .project-image {
   display: block;
