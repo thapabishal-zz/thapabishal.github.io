@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Location Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+</head>
+<body>
+    
+    <p  id="currentLat">Lat: </p>
+    <p  id="currentLon">Lon: </p>
+  
+
+
+   <script>
+   
+   var curLat = document.getElementById('currentLat');
+var curLon =  document.getElementById('currentLon');
+
+if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(showLoc);
+}else{
+    curLat.innerHTML="browser don't";
+    curLon.innerHTML="support geolocation";
+}
+
+
+function showLoc(position){
+   console.log("updating coords ");
+   console.log(position);
+   curLat.innerHTML= position.coords.latitude;
+   curLon.innerHTML = position.coords.longitude;
+}
+
+navigator.geolocation.watchPosition(function(position) {
+    console.log("position watched "+position.coords.latitude+", "+position.coords.longitude);
+    document.getElementById('currentLat').innerHTML = position.coords.latitude;
+    document.getElementById('currentLon').innerHTML = position.coords.longitude;
+  });
+   </script>
+</body>
+</html> 
