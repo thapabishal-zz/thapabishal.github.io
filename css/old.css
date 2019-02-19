@@ -30,6 +30,9 @@ body {
     #info{
       height:100vh;
     }
+      .navbar-custom .navbar-brand{
+      margin-left:30% !important;
+    }
     .mimage{
       padding:80px;
       margin-top:-5rem;
