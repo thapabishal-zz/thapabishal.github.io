@@ -15,13 +15,24 @@ body {
     font-weight: 800 !important;
   }
   #info{
-    background-image:  linear-gradient(to  right,  #094e7f, white 56.5%); 
-    color:white;
+    background-color: #0c0c0c;
+    background-image: url(../image/home_banner.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    color: white;
+    height:100vh;
+  }
+  .mimage{
+    margin-top:3rem;
   }
   @media (max-width: 770px) {
     #info{
-      background-image:  linear-gradient(to  bottom,  #094e7f, white 41%); 
-      color:white;
+      height:100vh;
+    }
+    .mimage{
+      padding:80px;
+      margin-top:-5rem;
     }
     
   }
@@ -82,7 +93,7 @@ body {
     color:#76bd1d !important;
   }
   .navbar-custom {
-    background-color: black;
+    background-color: #0c0c0c;
       -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.2);
       box-shadow: 0 2px 2px rgba(0,0,0,0.2);
       display: block;
