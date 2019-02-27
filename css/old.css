@@ -2,7 +2,7 @@ body {
     font-family: 'Lato';
   }
   a{
-    color:#76bd1d;
+    color:white;
   }
   
   h1,
@@ -15,7 +15,7 @@ body {
     font-weight: 800 !important;
   }
   #info{
-    background-color: #0c0c0c;
+    background-color: #f16836;
     background-image: url(../image/home_banner.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
@@ -23,18 +23,61 @@ body {
     color: white;
     height:100vh;
   }
+
+
+  #info h2,h3,a {
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
   .mimage{
     margin-top:3rem;
   }
+  .modal-header{
+    padding:10px;
+  }
   @media (max-width: 770px) {
+    
     #info{
       height:100vh;
     }
-      .navbar-custom .navbar-brand{
-      margin-left:30% !important;
-    }
     .mimage{
-      padding:80px;
+      padding:80px;.navbar-custom .navbar-brand
       margin-top:-5rem;
     }
     
