@@ -1,0 +1,41 @@
+
+title: Bishal Thapa - Java Developer | Blogs
+author: bishal thapa
+generator: bishal
+email: thebishalthapa@gmail.com
+permalink: pretty
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bishalthapa.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: thebishalthapa
+github_username:  thebishalthapa
+# Build settings
+
+root: /
+collections:
+  category:
+    output: true
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

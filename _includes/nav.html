@@ -1,0 +1,44 @@
+<nav id="sidebar">
+        <div class="sidebar-header">
+
+            <div class="blog-title">
+
+                <div class="blog-logo">
+                    <span class="first-name">BISHAL</span> <span class="last-name">THAPA</span>
+                </div>
+
+
+                <button type="button" id="sidenavbar" class="navbar-toggle ">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <p class="header-title">
+                It always feel good when you can give back to your community.
+            </p>
+
+
+        </div>
+
+        {% assign current = page.url | downcase | split: '/' %}
+        <ul class="list-unstyled components" id="sidenavbar">
+            
+            <li {% if current[1] == node.url %} class='active'{% endif %} >
+                <a href="{{site.baseurl}}/"> <i class="glyphicon glyphicon-book"></i> Blog</a>
+            </li>
+            <li {% if current[1] == 'categories' %}class='active'{% endif %}>
+                <a href="{{site.baseurl}}/categories"><i class="	glyphicon glyphicon-th"></i> Categories</a>
+            </li>
+            <li {% if current[1] == 'about' %}class='active'{% endif %}>
+                <a href="{{site.baseurl}}/about"><i class="glyphicon glyphicon-info-sign"></i> About</a>
+            </li>
+            <li >
+                <a href="{{site.baseurl}}/feed.xml"><i class="
+                    glyphicon glyphicon-open"></i> RSS</a>
+            </li>
+        </ul>
+        <div>
+
+    </nav>
