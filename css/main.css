@@ -64,8 +64,9 @@ a, a:hover, a:focus {
     width: 100%;
     height: 1px;
     border-bottom: 1px dashed #ddd;
-    margin: 20px 0;
+    margin: 5px 0;
 }
+.tag-line{margin: 15px 0;}
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
@@ -94,17 +95,24 @@ a, a:hover, a:focus {
 #sidebar ul p {
     padding: 10px;
 }
-
+#sidebar ul li {
+    background: #5382a1;
+    margin:3px 0px;
+}
 #sidebar ul li a {
     padding: 10px;
     font-size: 1.1em;
     display: block;
     margin-left: 10px;
+    box-shadow: rgb(235, 236, 237) 3px 0px 0px inset;
+    color: rgb(56, 64, 71);
+    background: rgb(232, 233, 234)
 }
-
+#sidebar ul li a:hover {
+   background-color: #f89820;
+}
 .active  {
-    color: #fff;
-    background: #5382a1;
+    background: #f89820 !important;
 }
 
 .mode{ 
@@ -195,10 +203,7 @@ a, a:hover, a:focus {
         border-bottom: 1px solid;
         border-right: 1px solid;
         margin-left: 0px;
-    }
-    #sidebar ul li a:hover {
-        color: #7386D5;
-        background: #fff;
+        background-color: white;
     }
 
     .header-title{
@@ -223,15 +228,14 @@ a, a:hover, a:focus {
 .post-title{
     font-size: 30px;
 }
-.post-list:hover{
-    color:#5382a1;
-    text-decoration: none;
-    border-bottom: 1.5px solid #5382a1;
-    transition:none;
+.post-title h1{ display: inline;}
+.post-title-icon{
+    margin:5px;
 }
-  .post-details{
+
+.post-details{
       display: flex;
-      margin-top:10px;
+      margin-top:5px;
   }
 .tag {
     background-color: #5382a1;
@@ -277,15 +281,16 @@ a, a:hover, a:focus {
   }
  
   .post-title{
-    font-size: 30px;
+    font-size: 24px;
 }
 #content{
     max-width: 100rem !important;
 }
 .post-content{
-    font-size: calc(1em + 0.33vw);
-    font-weight: 340;
-    line-height: 2.8rem;
+    font-size: 1.70rem;
+    line-height: 2.6rem;
+    word-spacing: .2rem;
+    color:#424040;
 }
 .file-name{
     display: block;
@@ -336,3 +341,6 @@ pre{
     max-width: 80rem;
 
 }
+
+
+

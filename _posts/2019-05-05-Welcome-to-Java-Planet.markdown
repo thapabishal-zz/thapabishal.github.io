@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is java"
+title:  "Welcome to Java Planet"
 date:   2019-05-05 16:13:42 +0100
 categories: java
 content: "What is java"

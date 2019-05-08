@@ -13,7 +13,7 @@
                     <li class="post-title post-list"><a href="{{ tag }}">{{ tag | capitalize }}
                             <span>{{ site.tags[tag].size }}</span></a></li>
                 </div>
-                <div class="line"></div>
+                <div class="line tag-line"></div>
                 {% endfor %}
                 {% else %}
                 {% for tag in tags_list %}
@@ -22,7 +22,7 @@
                     <a href="{{site.url}}/category/{{tag[0]}}" class="showTagPost" data-tag="{{tag[0]}}'" class="post-list">{{ tag[0] }}
                     </a>
                 </div>
-                <div class="line"></div>
+                <div class="line tag-line"></div>
             
             {% endfor %}
             {% endif %}

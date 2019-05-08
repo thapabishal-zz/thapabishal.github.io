@@ -10,6 +10,8 @@ twitter_username: thebishalthapa
 github_username:  thebishalthapa
 # Build settings
 
+permalink: /blog/:title
+
 root: /
 collections:
   category:
