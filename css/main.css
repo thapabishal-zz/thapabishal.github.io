@@ -23,7 +23,7 @@ body {
 .blog-logo{
     background-color:#5382a1;
     color:white;
-    width:200px;
+    max-width:200px;
     padding:10px 15px;
 }
 .first-name{
@@ -78,11 +78,10 @@ a, a:hover, a:focus {
     height: 100vh;
     z-index: 999;
     transition: all 0.3s;
-    border-right: 1.5px solid;
-    background-color: white;
+    border-right: 1.2px solid;
+    background-color: white
+
 }
-
-
 #sidebar .sidebar-header {
     padding: 23px;
 }
