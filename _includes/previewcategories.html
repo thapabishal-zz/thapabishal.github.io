@@ -1,14 +1,14 @@
 <!-- Page Content Holder -->
 <div class="container">
-<div id="main">
-    <div id="content">
-        <h1>Tags</h1>
+    <div id="main">
+        <div id="content">
+            <h1>Categories</h1>
 
-        <ul class="tag-box">
-            {% assign tags_list = site.categories %}
-            {% if tags_list.first[0] == null %}
-            {% for tag in tags_list %}
-            
+            <ul class="tag-box">
+                {% assign tags_list = site.categories %}
+                {% if tags_list.first[0] == null %}
+                {% for tag in tags_list %}
+
                 <div class="post">
                     <li class="post-title post-list"><a href="{{ tag }}">{{ tag | capitalize }}
                             <span>{{ site.tags[tag].size }}</span></a></li>
@@ -19,20 +19,21 @@
                 {% for tag in tags_list %}
                 <div class="tags-title">
                     <i class="glyphicon glyphicon-tags"></i> <span> [{{ tag[1].size}}]</span>
-                    <a href="{{site.url}}/category/{{tag[0]}}" class="showTagPost" data-tag="{{tag[0]}}'" class="post-list">{{ tag[0] }}
+                    <a href="{{site.url}}/category/{{tag[0]}}" class="showTagPost" data-tag="{{tag[0]}}'"
+                        class="post-list">{{ tag[0] }}
                     </a>
                 </div>
                 <div class="line tag-line"></div>
-            
-            {% endfor %}
-            {% endif %}
-            {% assign tags_list = nil %}
-        </ul>
 
+                {% endfor %}
+                {% endif %}
+                {% assign tags_list = nil %}
+            </ul>
+
+        </div>
     </div>
-</div>
 
-<!-- 
+    <!-- 
     <div id="tagList">
             
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the

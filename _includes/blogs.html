@@ -1,42 +1,39 @@
-   <!-- Page Content Holder -->
-   <div id="main">
-        <div id="content"   >
-            <h1 >Blog</h1>
+<!-- Page Content Holder -->
+<div id="main">
+    <div id="content">
+        <h1></h1>
 
 
 
-            {% for post in site.posts %}
-            
-            <div class="post">
-                <a href="{{post.url}}" class="post-title post-list">
-                     {{post.title}}
-                </a>
-                <div class="post-details">
-                    <p class="post-date">
-                            Published on : {{ post.date | date: "%-d %B %Y" }} 
-                    </p>
-                    <ul class="post-tags">
-                       {% for category in post.categories %}
-                            <li class="tag"><a href="#">&#8226; {{ category}}</a></li> 
-                         {% endfor %}
-                       
-                       
-                    </ul>
-                </div>
+        {% for post in site.posts %}
+
+        <div class="post">
+            <a href="{{post.url}}" class="post-title post-list">
+                {{post.title}}
+            </a>
+            <div class="post-details">
+                <p class="post-date">
+                    Published on : {{ post.date | date: "%-d %B %Y" }}
+                </p>
+                <ul class="post-tags">
+                    {% for category in post.categories %}
+                    <li class="tag"><a href="#">&#8226; {{ category}}</a></li>
+                    {% endfor %}
+
+
+                </ul>
             </div>
-            <div class="line"></div>
+        </div>
+        <div class="line"></div>
 
-            {% endfor %}
-
-
-
-
-            
+        {% endfor %}
 
 
- 
+
+
+
+
+
+
     </div>
 </div>
-
-
-

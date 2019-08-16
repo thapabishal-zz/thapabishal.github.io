@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Bishal Thapa - Java Developer | Blogs
+title: Bishal Thapa - Software Developer | Blogs
 priority: 1.0
-changefreq: weeekly
+changefreq: monthly
 ---
