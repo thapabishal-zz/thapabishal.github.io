@@ -5,7 +5,7 @@ generator: bishal
 email: thebishalthapa@gmail.com
 permalink: pretty
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bishalthapa.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thapabishal.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thebishalthapa
 github_username:  thebishalthapa
 # Build settings
