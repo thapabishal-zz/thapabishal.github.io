@@ -1,11 +1,11 @@
 
-title: Bishal Thapa - Java Developer | Blogs
+title: Bishal Thapa - Software Developer
 author: bishal thapa
 generator: bishal
 email: thebishalthapa@gmail.com
 permalink: pretty
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thapabishal.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thapabishal.github.io/" # the base hostname & protocol for your site
 twitter_username: thebishalthapa
 github_username:  thebishalthapa
 # Build settings
@@ -30,14 +30,4 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+

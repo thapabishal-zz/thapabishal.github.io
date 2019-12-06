@@ -18,7 +18,7 @@
                 {% else %}
                 {% for tag in tags_list %}
                 <div class="tags-title">
-                    <i class="glyphicon glyphicon-tags"></i> <span> [{{ tag[1].size}}]</span>
+                    <i class="glyphicon glyphicon-tags category-tag"></i> <span> [{{ tag[1].size}}]</span>
                     <a href="{{site.url}}/category/{{tag[0]}}" class="showTagPost" data-tag="{{tag[0]}}'"
                         class="post-list">{{ tag[0] }}
                     </a>
