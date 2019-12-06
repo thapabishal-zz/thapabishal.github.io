@@ -1,4 +1,4 @@
 ---
-tag: Java
+tag: java
 permalink: "/category/java"
 ---

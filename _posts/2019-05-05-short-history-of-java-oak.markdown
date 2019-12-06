@@ -2,7 +2,7 @@
 layout: post
 title:  "Short history of Java-Oak."
 date:   2019-05-05 16:13:42 +0100
-categories: Java
+categories: java
 content: "Short history of Java-Oak."
 ---
 
