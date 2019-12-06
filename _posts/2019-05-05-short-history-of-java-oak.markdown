@@ -34,6 +34,29 @@ Today Java has been the language of choice, since it is used in many application
  Few people would disagree with me if I say, <b>"Java is all around"</b>.
 </p>
 
+
+
+<div id="disqus_thread m-5"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = "https://thapabishal.github.io";  
+this.page.identifier = "blog/short-history-of-java-oak"; /
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://thapabishal.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+                   
+
+
 <!--
 <div class="reference">
 More more : <a href="https://www.i-programmer.info/news/80/10791.html">i-programmer</a>   
@@ -47,3 +70,5 @@ More more : <a href="https://www.i-programmer.info/news/80/10791.html">i-program
         }  
     } 
   </code></pre> -->
+
+
