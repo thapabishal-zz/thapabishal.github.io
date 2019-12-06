@@ -1,0 +1,30 @@
+<!-- Page Content Holder -->
+<div class="container">
+    <div id="main">
+        <div id="content">
+            <h1>{{ page.tag }}</h1>
+            <div class="blog list">
+
+                {% for category  in site.categories[page.tag] %}
+
+                <div class="post">
+                    <i class="glyphicon glyphicon-bookmark post-title-icon title-icon"></i>
+                    <a href="{{category.url}}" class="post-title post-list">
+                        {{category.title}}
+                    </a>
+                    <div class="post-details">
+                        <p class="post-date">
+                            Published on : {{ category.date | date: "%-d %B %Y" }}
+                        </p>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                {% endfor %}
+
+
+            </div>
+
+        </div>
+    </div>
+</div>

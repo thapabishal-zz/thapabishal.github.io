@@ -2,7 +2,7 @@
 layout: post
 title:  "Short history of Java-Oak."
 date:   2019-05-05 16:13:42 +0100
-categories: java
+categories: Java
 content: "Short history of Java-Oak."
 ---
 
@@ -25,7 +25,7 @@ Marketing team came up different name list like <i>Silk</i>, <i>Lyrics</i>, <i>J
 </p>
 
 <div class="m-5"> 
-<img src="../images/java-201906/javainfograpgic.jpg" class="img-responsive"> 
+<img src="/../images/java-201906/javainfograpgic.jpg" class="img-responsive"> 
 Image Source: <a href="https://www.journaldev.com/"> journaldev </a>
 </div>
 
