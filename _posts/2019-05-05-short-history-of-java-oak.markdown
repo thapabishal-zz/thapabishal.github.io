@@ -25,7 +25,7 @@ Marketing team came up different name list like <i>Silk</i>, <i>Lyrics</i>, <i>J
 </p>
 
 <div class="m-5"> 
-<img src="/../images/java-201906/javainfograpgic.jpg" class="img-responsive"> 
+<img src="{{site.baseurl}}/images/java-201906/javainfograpgic.jpg" class="img-responsive"> 
 Image Source: <a href="https://www.journaldev.com/"> journaldev </a>
 </div>
 
