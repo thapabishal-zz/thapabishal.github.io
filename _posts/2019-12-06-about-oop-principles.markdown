@@ -2,7 +2,7 @@
 layout: post    
 title:  "About OOP principles."
 date:   2019-12-06 09:23:42 +0100
-categories: java
+categories: oop
 content: "About OOP principles."
 ---
 
