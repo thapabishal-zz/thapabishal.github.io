@@ -44,7 +44,7 @@ Today Java has been the language of choice, since it is used in many application
 /*
 var disqus_config = function () {
 this.page.url = "https://thapabishal.github.io";  
-this.page.identifier = "blog/short-history-of-java-oak"; /
+this.page.identifier = "category/java/short-history-of-java-oak"; /
 };
 */
 (function() { // DON'T EDIT BELOW THIS LINE

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e47a2acd-fbc4-44bf-b946-a95099bc15b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_category/java.md" beforeDir="false" afterPath="$PROJECT_DIR$/_category/java.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-12-06-about-oop-principles.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/nav.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-05-05-short-history-of-java-oak.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-05-05-short-history-of-java-oak.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +14,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,11 +48,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\devproject\thapabishal.github.io\_posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\devproject\thapabishal.github.io\images\java-201906" />
     </key>
@@ -64,7 +84,10 @@
       <option name="presentableId" value="Default" />
       <updated>1575568142590</updated>
       <workItem from="1575568146522" duration="4538000" />
-      <workItem from="1575626669471" duration="24040000" />
+      <workItem from="1575626669471" duration="24327000" />
+      <workItem from="1575667231631" duration="2572000" />
+      <workItem from="1575675507283" duration="3034000" />
+      <workItem from="1575719885841" duration="3932000" />
     </task>
     <servers />
   </component>
@@ -76,15 +99,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575650287396" />
-    <state x="533" y="211" width="570" height="508" key="find.popup" timestamp="1575657282385">
+    <state x="533" y="211" width="755" height="508" key="find.popup" timestamp="1575668696086">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="666" y="266" width="587" height="508" key="find.popup/-1920.267.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1575568352569" />
-    <state x="533" y="211" width="570" height="508" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1575657282385" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1575657135436">
+    <state x="533" y="211" width="755" height="508" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1575668696086" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1575668837598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.267.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1575568438647" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575657135436" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575668837598" />
   </component>
 </project>

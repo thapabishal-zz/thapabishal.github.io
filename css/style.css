@@ -132,7 +132,7 @@ a, a:hover, a:focus {
 
 #sidebar ul li {
     background: #1c6fa9;
-    margin: 3px 0px;
+    /* margin: 3px 0px; */
 }
 
 #sidebar ul li a {
@@ -151,8 +151,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li:first-child {
-    margin: 0px
-
+    margin: 0px;
 }
 
 .active {
@@ -196,12 +195,9 @@ a, a:hover, a:focus {
     margin-right: 31px;
 }
 
-.twitter-content {
-    height: 500px !important;
-    overflow-y: scroll;
-}
 .title-icon {
     font-size: 17px;
+    color: #1c6fa9;
 }
 
 /* ---------------------------------------------------
@@ -238,6 +234,10 @@ a, a:hover, a:focus {
         width: 100%;
     }
 
+    .twitter-content {
+        display: none;
+    }
+
     .blog-title {
         margin-left: 33px;
         display: contents;
@@ -261,8 +261,8 @@ a, a:hover, a:focus {
         font-size: 1.1em;
         display: block;
         border-bottom: 1px solid;
-        border-right: 1px solid;
-        margin-left: 0px;
+        /* border-right: 1px solid; */
+        margin-left: -3px;
         background-color: white;
     }
 
@@ -272,8 +272,9 @@ a, a:hover, a:focus {
 
     .blog-logo {
         display: inline;
-        padding: 1px 18px;
+        padding: 1px 4px;
         margin-left: 36px;
+        font-size: 18px;
     }
 
 }
