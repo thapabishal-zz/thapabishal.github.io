@@ -132,7 +132,7 @@ a, a:hover, a:focus {
 
 #sidebar ul li {
     background: #1c6fa9;
-    /* margin: 3px 0px; */
+    margin: 2px 0px !important;
 }
 
 #sidebar ul li a {
