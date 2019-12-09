@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e47a2acd-fbc4-44bf-b946-a95099bc15b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-12-09-imagine-four-pillars-of-oop.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-12-09-imagine-four-pillars-of-oop.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-12-09-imagine-four-pillars-of-oop.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,8 @@
       <workItem from="1575675507283" duration="3034000" />
       <workItem from="1575719885841" duration="4231000" />
       <workItem from="1575737778401" duration="1256000" />
-      <workItem from="1575849611037" duration="1122000" />
+      <workItem from="1575849611037" duration="1202000" />
+      <workItem from="1575890399900" duration="13000" />
     </task>
     <servers />
   </component>

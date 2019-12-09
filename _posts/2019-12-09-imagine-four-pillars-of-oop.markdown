@@ -10,7 +10,7 @@ content: "Imagine four pillars of OOP."
 Imagine, A small child gets money from his father. The child knows that fathers can provide money, but
  that small child doesn't know the complexity father faced to make that money. Here, It is not necessary for a
  little child to know the information or complexity faced by his father. Like the real world, In OOP abstraction means hiding
-  the implementation and showing only the relevant information needed for the users. Java has part and full abstraction.
+  the implementation and showing only the relevant information needed for the users. Java has partial and full abstraction.
   Partial abstraction can be achieved with abstract class and total abstraction can be achieved with the interface. Next, we have 
   encapsulation which is comparable concept with abstraction, but with little difference, don't get confused.
 </p>
