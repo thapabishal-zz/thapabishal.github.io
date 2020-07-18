@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e47a2acd-fbc4-44bf-b946-a95099bc15b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-12-09-imagine-four-pillars-of-oop.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-12-09-imagine-four-pillars-of-oop.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2020-07-18-java-overloading-conversion-rule.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,34 +61,24 @@
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_category" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\devproject\thapabishal.github.io\_posts" />
+      <recent name="C:\devproject\thapabishal.github.io\_category" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\devproject\thapabishal.github.io\images\java-201906" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\devproject\thapabishal.github.io\_category" />
-      <recent name="C:\devproject\thapabishal.github.io\_posts" />
-    </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,34 +98,30 @@
       <workItem from="1575737778401" duration="1256000" />
       <workItem from="1575849611037" duration="1202000" />
       <workItem from="1575890399900" duration="13000" />
+      <workItem from="1591477240540" duration="504000" />
+      <workItem from="1595106500164" duration="779000" />
+      <workItem from="1595107984621" duration="1104000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="75" key="#Template_Data_Languages" timestamp="1575849932444">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595107887218">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="75" key="#Template_Data_Languages/0.0.1536.824@0.0.1536.824" timestamp="1575849932444" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1575650287396">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575650287396" />
-    <state x="667" y="248" width="755" height="522" key="find.popup" timestamp="1575850600880">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="666" y="266" width="587" height="508" key="find.popup/-1920.267.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1575568352569" />
-    <state x="667" y="248" width="755" height="522" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1575850600880" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1575850519499">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1575850519499" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1575737170801">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.267.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1575568438647" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575737170801" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1595107887218" />
   </component>
 </project>
