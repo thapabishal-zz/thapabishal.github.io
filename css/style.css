@@ -5,10 +5,6 @@ body {
     color: black;
 }
 
-h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6  {
-       font-family: 'Fira Code', monospace;
-}
-
 .m-5 {
     margin: 5rem 0rem;
 }
@@ -373,11 +369,12 @@ a, a:hover, a:focus {
 
 .post-content {
 
- font-family: 'Inconsolata', monospace;     font-size: 16px;     font-stretch: normal;     font-style: normal;     font-weight: 400;
-    
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
     line-height: 2.6rem;
-  
-  
+    word-spacing: .2rem;
     margin: 0 0 30px;
 }
 
