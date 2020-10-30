@@ -5,6 +5,10 @@ body {
     color: black;
 }
 
+h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6  {
+       font-family: 'Fira Code', monospace;
+}
+
 .m-5 {
     margin: 5rem 0rem;
 }
