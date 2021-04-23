@@ -4,13 +4,13 @@ author: bishal thapa
 generator: bishal
 email: thebishalthapa@gmail.com
 permalink: pretty
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blogs
 url: "https://thapabishal.github.io/" # the base hostname & protocol for your site
 twitter_username: thebishalthapa
 github_username:  thebishalthapa
 # Build settings
 
-permalink: /category/:categories/:title
+permalink: /categories/:categories/:title
 
 root: /
 collections:
@@ -22,9 +22,9 @@ defaults:
   -
     scope:
       path: ""
-      type: category
+      type: categories
     values:
-      layout: "category"
+      layout: "categories"
 
 markdown: kramdown
 plugins:
